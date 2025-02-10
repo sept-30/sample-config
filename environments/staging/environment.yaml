@@ -28,3 +28,8 @@ app:
     - name: io_openliberty_sample_system_inMaintenance
       value: "false"
       
+  # Enable a public endpoint for the application. If not set, the application
+  # is only available on an internal endpoint accessible to other applications
+  # within a subscription.
+  endpoints: public
+  
